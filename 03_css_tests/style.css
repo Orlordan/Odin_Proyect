@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: darkorchid;
+
+}
+.linking-css {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+/* --------------2DO TEST-------------- */
+.odds {
+    background-color: pink;
+    font-family: Verdana, Dejavu Sans, sans-serif;
+}
+.odds.cooler{
+    font-size: 30px;
+}
+#div1-id {
+    background-color: white;
+    color: blue;
+    font-size: 36px;
+    text-align: initial;
+}
+#div2-id {
+    background-color: rgb(19, 216, 85);
+    font-size: 50px;
+    font-weight: 400;
+    text-align: initial;
+}
+/* --------------3th TEST-------------- */
+.button1,
+.button2 {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    border-radius: 50%;
+}
+.button1 {
+    background-color: black;
+    color: white;
+}
+.button2 {
+    background-color: yellow;
+}
+/* --------------4th TEST-------------- */
+.descendant p {
+    background-color: yellow;
+    text-align: center;
+    font-size: 24px;
+    color: red;
+}
+/* --------------FLEXBOX 1-------------- */
+.container {
+    display: flex;
+    background: cadetblue;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid greenyellow;
+}
+.container .item {
+    background: blueviolet;
+    height: 160px;
+    width: 160px;
+}
+
+/* --------------FLEXBOX 2-------------- */
+.main-container {
+    display: flex;
+    height: 60px;
+    width: auto;
+    background-color: #63A1A0;
+    justify-content: space-between;
+}
+.main-container .sub-container {
+    display: flex;
+    align-items: center;
+    background-color: #63A1A0;
+    gap: 2px;
+}
+.sub-container .Logo {
+    background: #4f0c92;
+    padding: 4px;
+}
+.sub-container .item-2 {
+    font-size: 15px;
+    padding: 4px;
+    margin: 6px;
+    background-color: #AA76DD;
+}
+/* --------------FLEXBOX 3-------------- */
+.main-container-3 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-image: linear-gradient(45deg, #aa76dd, #9499d4, #73b8cb, #2bd5c1);
+}
+.title-info {
+    display: flex;
+    height: 100px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 32px;
+    color: white;
+}
+.title-info h3 {
+    margin: 32px 0;
+}
+.info-container {
+    display: flex;
+    height: 300px;
+    gap: 52px;
+    justify-content: center;
+}
+.info img{
+    height: 200px;
+    width: auto;
+}
+.info p {
+    text-align: center;
+    background: local;
+}
+/* --------------FLEXBOX 4-------------- */
+.main-container-4 {
+    background-color: #63A1A0;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-container {
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+}
+.box-img img {
+    margin: 10px 0 0 10px;   
+}
+.box-text h3 {
+    margin: 13px 0;
+}
+.box-text p{
+    background-color: white;
+    color: black;
+    margin: 0 15px 5px 0;
+}
+.box-button {
+    margin-top: 5px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.box-button.bu1 {
+    background-color:#2bd5c1;
+    color: honeydew;
+}
+.box-button.bu2 {
+    background-color:honeydew;
+    color: #2bd5c1;
+}
+/* --------------FLEXBOX 5-------------- */
+.container-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(181deg, #350744, #641653, #942962, #c63c71)   
+}
+nav {
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 16px;
+}
+
+.left-part,
+.right-part{
+    padding: 0  ;
+    margin:10px
+}
+
+.nav1 a {
+    color:lemonchiffon;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* -----------------------contnt */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+.img-content img{
+    height: 200px;
+    width: 400px;
+}
+.input-content input,
+.buttons-content button {
+    border-radius: 8px;
+    margin: 3px 1px;
+}
