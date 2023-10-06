@@ -43,4 +43,3 @@ function game() {
         console.log(gamerps)
     }
 }
-console.log(game())
