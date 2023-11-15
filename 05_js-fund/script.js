@@ -1,31 +1,37 @@
-console.log(23 +97)
-console.log ((4 + 6 + 9)/ 77)
-let max = 57;
-let actual = max - 13;
-let porcentage = actual / max;
-console.log(porcentage)
-/* Troubleshooting */
-function troubleshooting() {
-	const a = 1;
-	const b = 1;
-	let result;
-	result = a + b;
-	return result;
+/* ------------------------ */
+function imc(peso, altura) {
+    const idm = peso / altura**2
+    if (idm <= 18.5) {
+        return 'Bajo peso'
+    } else if (idm > 18.5 && idm <=25) {
+        return 'Normal'
+    } else {
+        return'Sobrepeso'
+    }
 }
-console.log(troubleshooting())
+console.log(90 / 2.2**2)
+console.log(imc(90,2.2))
 
-/* uppercase */
-var str = "comer";
-function capitalize (str){
-    let capitalized = str[0].toUpperCase() + str.substring(1);
-    console.log(capitalized)
-    return capitalized
-}
-console.log(capitalize(str))
-console.log(str.length)
-function lastLetter (str){
-    let part = str.substring(str.length-1);
-    console.log(part)
-    return part
-}       
-console.log(lastLetter(str))
+let año = 1601;
+var siglo = Math.floor((año - 1)/100) + 1;
+/* siglo = Number((año /100).toFixed());
+ */
+console.log(siglo)
+console.log(typeof(siglo))
+console.log(siglo)
+
+let namesxasv = ["pepe", 'juan', 'pepelu', 'rocio'];
+let lengthxx = 4;
+let result = [];
+console.log(namesxasv[2].length)
+  for (let name of namesxasv) {
+    if (name.length <= lengthxx) {
+        result.push(name)
+        console.log(name)
+    }
+  }
+  console.log(result)
+
+  let palabbra= 'hambre'
+  let conv = palabbra.split('').reverse().join('')
+  console.log(conv) 
