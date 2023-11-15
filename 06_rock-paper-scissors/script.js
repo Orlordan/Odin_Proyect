@@ -1,11 +1,17 @@
+
+
+
+
 console.log("hello")
 let weapons = ["rock", "paper", "scissors "];
 console.log(weapons.length)
+// FUNCION PC--------------------------/
 function getComputerChoice () {
     let random_weapon = weapons[Math.floor(Math.random() * weapons.length)]
     return random_weapon
 }
 console.log(getComputerChoice())
+
 function playground(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
         return "tie"
@@ -33,7 +39,7 @@ function playground(playerSelection, computerSelection) {
         }
     }
 }
-let playerSelection = "paper    ";
+let playerSelection = "paper";
 let computerSelection = getComputerChoice();
 console.log(computerSelection)
 console.log(playground(playerSelection, computerSelection))
@@ -43,3 +49,6 @@ function game() {
         console.log(gamerps)
     }
 }
+
+
+
